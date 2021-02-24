@@ -1,0 +1,150 @@
+.about{
+	 border-radius: 5px;
+	 transition-duration: 1s;
+	 position: relative;
+}
+.about:hover{
+	background:url(../images/about-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.handcoin{display: none;}
+.overlay{
+	position: absolute;
+    background: #cba006;
+    background: -moz-linear-gradient(top, #cba006 0%, #ec6604 100%);
+    background: -webkit-linear-gradient(top, #cba006 0%,#ec6604 100%);
+    background: linear-gradient(to bottom, #cba006 0%,#ec6604 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cba006', endColorstr='#ec6604',GradientType=0 );
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+ }
+ .about:hover .overlay{
+ 	opacity: 0.7;
+ }
+
+ .about:hover img{position: relative;}
+ .about:hover h4,.about:hover p{color: #fff; position: relative;}
+ 
+
+ .lock{
+    width: 130px;
+}
+ .lock span{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    line-height: 30px;
+    color: #f8a034;
+    margin-bottom: 10px;
+}
+
+ .lock span::before{
+    position: absolute;
+    content: "";
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: rotate(45deg);
+ }
+
+ .lock i{}
+ .lock strong{
+    display: block;
+    font-weight: 100;
+}
+
+.feature {
+	position: relative;
+}
+
+.lockone{
+	
+position: absolute;
+	
+top: 0;
+	
+left: 0;
+}
+.locktwo{
+	
+position: absolute;
+	
+top: 50%;
+	
+left: -50px;
+	
+transform: translateY(-50%);
+}
+.lockthree{
+	
+position: absolute;
+	
+bottom: 0;
+	
+left: 0;
+}
+.lockfour{
+	
+position: absolute;
+	
+right: 0;
+	
+top: 0;
+}
+.lockfive{
+	
+position: absolute;
+	
+right: -50px;
+	
+top: 50%;
+	
+transform: translateY(-50%);
+}
+.locksix{
+	
+position: absolute;
+	
+right: 0;
+	
+bottom: 0;
+}
+
+
+.form-section{
+	background-image: url(../images/contact-bg.png);
+	background-size: cover;
+}
+
+.form-control {
+    background-color: transparent;
+}
+.form-control:focus {
+    background-color: transparent;
+  
+    color: #fff;
+    
+    border-color: #ffffff87;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+.form-control:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+.form-control:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
