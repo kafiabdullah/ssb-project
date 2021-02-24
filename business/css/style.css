@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+header{background: #eaeaea;border-bottom: 1px solid #c5c5c5;}
+.top-info{}
+.top-info li{
+    font-size:  15px;
+    padding: 10px 20px;
+    color:  #424242;
+    border-left: 1px solid #c5c5c5;
+}
+
+.custom{
+    border-bottom: :2px solid #000000;
+}
+.top-info li i{
+}
+.top-info li a{
+    color: #1287bf;
+    font-size: 21px;
+}
+.top-info li a:hover{}
+.top-info li:first-child{
+    border-left: none;
+}
+.top-info li:last-child{
+    padding-right: 0
+}
+.top-info li span{
+    padding-left: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    position: relative;
+    color:  #424242;
+    font-size:  15px;
+    font-weight: 500;
+    padding: 20px;
+}
+.navbar-light .navbar-nav .nav-link::after  {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #424242;
+    border-radius:  50px;
+    top: 50%;
+    transform: translateY(-40%);
+    left: 0;
+}
+.navbar-light .navbar-nav .nav-item:first-child .nav-link::after{
+    background:  transparent;
+}
+.navbar-light .navbar-nav .nav-item:last-child .nav-link::after{
+    background:  transparent;
+}
+
+.btn-custom{
+    
+background: #dd2a24;
+    
+border-radius: 5px;
+    
+padding: 15px 27px!important;
+    
+color: white!important;
+    
+margin-top: 4px;
+}
+
+.banner{
+    background:url(../images/banner.png);
+    background-size: cover;
+}
+.banner .row{
+    min-height: 90vh
+}
+.banner .row .banner-content{}
+.banner-content h1{
+    font-size: 48px;
+    margin: 0;
+}
+.banner-content p{
+    font-size:  30px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.banner-content a{
+}
+
+.btn-style{
+    background: #f8cd53;
+    color: white;
+    font-size: 21.45px;
+    padding: 10px 15px;
+    margin: 10px;
+    margin-top: 35px;
+    box-shadow: 0 0 16px #7f8575;
+}
+.btn-style:focus{
+    outline: none;
+    box-shadow:  0 0 0;
+}
+.about-us{
+    padding: 100px 0;
+}
+.heading{
+    text-align: center;
+    display:  block;
+    padding-bottom: 47px;
+}
+.heading h1{
+    margin:  0;
+    font-size: 36px;
+    font-weight:  600;
+}
+.heading p{
+    font-size:  20px;
+    margin-bottom: 10px;
+}
+.heading span{
+    width: 50px;
+    height: 5px;
+    background: #424242;
+    display: block;
+    margin:  0 auto;
+}
+.about-us .about{
+    text-align: center;
+}
+.about-us .about img{
+    margin-bottom: 28px;
+}
+.about-us .about h3{
+    margin-bottom: 20px;
+    font-size:  22px;
+    font-weight:  600;
+}
+.about-us .about p{}
+
+.our-approch{
+    background: #f3f3f3;
+    padding:  100px 0;
+}
+.approch-img{
+    position:  relative;
+}
+.approch-img img{}
+.approch-img h1{}
+.approch-img span{}
+
+
+.approch-content{}
+.approch-content h3{
+    font-size:  18px;
+    font-weight:  600;
+}
+.approch-content p{}
+.no-gutters{
+    background-color: white;
+    box-shadow: 0 0 20px #cccccc7a;
+}
+.step{
+    position:  absolute;
+    top: 50%;
+    background:  red;
+    color:  white;
+    width:  100px;
+    height: 100px;
+    text-align:  center;
+    padding-top: 12px;
+    border: 1px solid;
+    border-radius:  5px;
+    right:  -50px;
+    transform: translateY(-50%);
+}
+.step h1{
+    margin:  0;
+    font-size:  60px;
+    font-weight:  600;
+    line-height:  0.8;
+}
+.step span{
+    font-size: 20px;
+}
+
+.step-left .step{
+     left:  -50px;
+}
+.our-work{
+    background:  red;
+    padding: 100px 0;
+    color:  white;
+}
+.our-work .heading{
+    color:  white;
+}
+.our-work .heading h1{}
+.our-work .heading p{}
+.our-work .heading span{
+    background:  white;
+}
+
+.work{
+    background-color: #f35e59;
+    padding: 0;
+    margin: 0;
+    text-align:  center;
+}
+.work-detail i{
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+.work-detail h2{
+    font-weight:  600;
+}
+.work-detail p{}
+
+.work-img{}
+
+.subscribe{
+    background: #1287bf;
+    padding: 100px 0;
+}
+.subscribe .heading {
+    color:  white;
+}
+.subscribe .heading span{display:  none;}
+.btn-arrow{
+    height:  50px;
+    width:  50px;
+    border: 1px solid white;
+    border-radius:  50%;
+    line-height: 50px;
+    padding: 0;
+    color:  white;
+}
+.btn-submit{
+    background:  red;
+}
+#contact{
+    background:  white;
+    padding:  30px;
+    border-radius:  5px;
+    margin-top: 80px;
+    position:  relative;
+}
+#contact::before{
+    content: "";
+    border-bottom: 90px solid #fffdfd;
+    border-left: 90px solid #ff000000;
+    border-right: 90px solid #ff000000;
+    top: -18%;
+    left: 34%;
+    position: absolute;
+}
+#contact form{}
+#contact form{}
+.btn-close{
+    background: red;
+    color: white;
+    font-size: 25px;
+    position:  absolute;
+    top: -7%;
+    right: -18px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding:  0;
+    height: 40px;
+    width: 40px;
+    line-height: 35px;
+}
+footer{
+    background: #1f1e24;
+}
+.get-in{
+    color:  white;
+    padding: 100px 0;
+}
+.get-in h2{
+    margin-bottom: 40px;
+    font-weight:  600;
+    font-size: 35px;
+}
+.get-in p{
+    margin-top: 30px;
+}
+.get-in ul{
+    padding: 0;
+    margin: 0;
+    
+}
+.get-in ul li{
+    display: inline-block;
+    list-style:  none;
+    height:  50px;
+    width: 70px;
+    background: #1f1e24;
+    line-height:  50px;
+    font-size: 28px;
+    border: 2px solid #515151;
+    margin: 5px;
+}
+.get-in ul li i{
+    color:  white;
+}
+.btn-subscribe{
+    background: none;
+    color: white;
+    border: honeydew;
+    padding: 9px 30px;
+    border: 1px solid #515151;
+    margin-top: 25px;
+    font-weight: 700;
+    margin-bottom: 80px;
+    border-radius:  0;
+}
+.form-control2{
+    display: block;
+    width: 100%;
+    padding: .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #464647;
+    background-clip: padding-box;
+    border: 1px solid #464647;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-align:  center;
+}
+.get-in ul li:hover{
+    border-color:  red;
+}
+.copyright{
+    background: #464647;
+    text-align:  center;
+    padding: 25px 0;
+    padding-top: 65px;
+}
+
+.btn-subscribe:focus{
+       outline: none;
+    box-shadow:  0 0 0;
+}
+.btn-style:hover{
+
+background: #455c51;
+}
