@@ -1,0 +1,66 @@
+.container{
+	background: pink;
+	height: 100%;
+	width: 100%;
+
+}
+.header{
+	background: blue;
+	height: 100px;
+	width: 100%;
+
+}
+.logo{
+	background: #FBD4D9;
+	height: 100px;
+	width: 30%;
+	float: left;
+}
+.menu{
+
+	background: #D9DB09;
+	height: 100px;
+	width: 70%;
+	float: right ;
+}
+.banner{
+	background: greenyellow;
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+
+}
+
+.content_three{
+	background: darkgray;
+	height: 500px;
+	width: 50%;
+	overflow: hidden;
+	float: right;
+}
+
+
+
+.content_one{
+	background: blue;
+	height: 250px;
+	width: 100%;
+
+}
+.content_two{
+	background: #BA7E0E;
+	height: 250px;
+	width: 100%;
+}
+.content{}
+
+.address{
+	background: #FDDD5E;
+	height: 100px;
+	width: 100%;
+}
+.footer{
+	background: #5553B1;
+	height: 100px;
+	width: 100%;
+}

@@ -1,0 +1,74 @@
+.container{
+	height: 100%;
+	width: 100%;
+	background-color: #544D4D;
+}
+.header{
+	height: 80px;
+	width: 100%;
+	background-color: blue;
+}
+.logo{
+	background: gray;
+	height: 80px;
+	width: 30%;
+	float: left;
+}
+.menu{
+	background: #FF4E00;
+	height: 80px;
+	width: 70%;
+	float: right;
+}
+.list{
+	background: #17FF2E;
+	height: 500px;
+	width: 30%;
+	float: left;
+}
+.banner_one{
+	height: 100px;
+	width: 70%;
+	background: purple;
+	float: right;
+}
+.banner_two{
+	height: 100px;
+	width: 70%;
+	background: #17FFF6;
+	float: right;
+}
+.content_one{
+	background: skyblue;
+	height: 300px;
+	width: 30%;
+	float: left;
+}
+.content_two{
+	background: red;
+	height: 300px;
+	width: 40%;
+	float: right ;
+}
+.info{
+	height: 100px;
+	width: 100%;
+	background: orange;
+}
+.soscial{
+	height: 100px;
+	width: 50%;
+	background: #07C1DC;
+	float: left;
+}
+.address{
+	height: 100px;
+	width: 50%;
+	background: #453C06;
+	float: right ;
+}
+.footer{
+	background: #D99709;
+	
+
+}
