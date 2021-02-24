@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-size:  16px;
+	/* color: gray; */
+	background: white;
+	width: 100%;
+	background-color: white;
+	
+	
+}	
+*{
+	 
+	 box-sizing: border-box;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	/* display: block; */
+	/* float:  left; */
+}
+header{
+    background: #ffe004ed;
+    margin: 0px;
+    padding: 0px;
+    /* margin-bottom: 15px; */
+    height: 120px;
+    /* padding-bottom: 58px; */
+}
+.container{
+    padding: 30px;
+    width:  100%;
+    margin: auto;
+    overflow:  hidden;
+}
+.logo{
+    width:  30%;
+    float:  left;
+}
+.logo img{
+    padding:  30px 0;
+}
+.menu{
+    text-decoration:  none;
+}
+
+.menu nav{
+    width:  70%;
+    text-decoration:  none;
+    float:  right;
+    padding: 30px 0;
+    /* text-decoration:  none; */
+}
+.menu nav ul{
+    /* text-decoration:  none; */
+    text-align: right;
+    width:  100%;
+    margin:  0;
+    padding: 0;
+    /* display:  inline; */
+}
+.menu nav ul li{
+    list-style:  none;
+    display:  inline-block;
+    padding: 0 20px;
+    display:  inline;
+    text-decoration:  none;
+}
+.menu nav ul li a{
+    text-decoration:  none;
+}
+.menu nav ul li a:hover{}
+
+.banner-section{
+    background: #ffb100;
+    padding: 0 50px;
+    height: 400px;
+}
+.banner-section .container{}
+.banner-section .txt{
+    padding: 40px;
+    /* text-align: left; */
+}
+
+.banner-section span{}
+.banner-section .b{
+    color:  white;
+    padding: 25px 25px;
+    background: #ce9c0e;
+    /* display:  inline-block; */
+    border-style:  none;
+    /* text-align:  center; */
+}
+
+.content-box{
+    /* background: gray; */
+    margin:  0;
+    padding: 0;
+}
+
+.content-box article{}
+.content-box article span{
+    /* text-align:  center; */
+    font-size: 25px;
+    margin: 0 450px;
+    padding: 0 8px;
+}
+.content-box article h1{
+    text-align:  center;
+    font-size: 40px;
+}
+
+
+.content-gallary{
+    margin: 0px;
+    /* background: #f3eaea; */
+    margin-top: 20px;
+    margin-bottom:  10px;
+    padding: 0px 60px;
+    width:  100%;
+    /* background: white; */
+    box-sizing:  border-box;
+}
+.content-gallary .gallary{
+    /* float:  left; */
+    width:  33.3%;
+    float: left;
+    /* margin: 20px; */
+    padding: 20px;
+    /* background: gray; */
+    /* background: ghostwhite; */
+    /* color:  gray; */
+    box-sizing:  border-box;
+    background: #f3f3f9;
+}
+.content-gallary .gallary img{width: 100%;}
+.content-gallary .gallary h1{
+    font-size: 30px;
+}
+.content-gallary .gallary p{
+    font-size: 20px;
+    text-align:  justify;
+}
+
+
+.content-box2{
+    width:  100%;
+    margin:  0;
+    /* float:  left; */
+    background: ghostwhite;
+}
+.content-box2 article{
+    overflow:  hidden;
+    width:  100%;
+    text-align:  center;
+    padding-bottom: 30px;
+    /* background: lightgray; */
+}
+.content-box2 article h3{
+	font-size: 40px;
+}
+.content-box2 article span{
+    font-size:  25px;
+    /* margin: 21px; */
+}
+
+.content{
+    width: 100%;
+    
+    box-sizing:  border-box;
+    margin: 0px;
+    background: ghostwhite;
+    overflow:  hidden;
+    padding: 60px;
+    /* background: darkslategrey; */
+}
+.content .example{}
+.example-box{}
+
+.content-text{
+    float: left;
+    padding: 0px 15px;
+    /* margin: 0px; */
+    /* margin: 0px 0px; */
+    width: 33.3%;
+    box-sizing:  border-box;
+    background: white;
+    /* margin-bottom: 20px; */
+    /* color: ghostwhite; */
+}
+.content .content-text h3{
+    font-size: 25px;
+}
+
+.content .content-text p{
+    font-size: 20px;
+}
+.content2{
+    width:  100%;
+    box-sizing:  border-box;
+    /* margin: 59px -350px; */
+    padding: auto;
+    padding: 0px 60px;
+    margin-top:  0;
+    overflow:  hidden;
+    margin-bottom: 0;
+    background: ghostwhite;
+    margin:  0;
+}
+.content2 .example{}
+.content-text2{
+   
+float: left;
+   
+padding: 0px 15px;
+   
+margin: 0px;
+   
+/* margin: 0px 0px; */
+   
+width: 33.3%;
+   
+box-sizing:  border-box;
+   
+background: white;
+   
+margin-bottom: 80px;
+}
+.content-text2 h3{
+    font-size: 25px;
+}
+.content-text2 p{
+    font-size: 20px;
+}
+.overview-box{
+    width:  100%;
+    /* float:  left; */
+    /* display:  inline; */
+    /* display:  inline-block; */
+    background: #ffb100;
+    overflow:  hidden;
+}
+
+.overview-box .project{display:  inline-block;text-align:  center;margin-left: 20px;margin-bottom: 20px;}
+.overview-box .project h2{
+    font-size: 40px;
+    /* text-align: right; */
+}
+.overview-box .project p{
+    font-size:  20px;
+    text-align: right;
+    margin-top:  0;
+    margin-left: 50px;
+}
+.content-box{
+    /* background: gray; */
+    margin:  0px;
+    padding: 0;
+}
+
+.content-box article{}
+.content-box article span{
+    /* text-align:  center; */
+    font-size: 25px;
+    margin: 0 450px;
+    padding: 0 8px;
+}
+.content-box article h1{
+    text-align:  center;
+    font-size: 40px;
+}
+.gellary-box{
+    width:  100%;
+    margin-top: 80px;
+}
+
+.photo-box1{
+	    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+ .photo1{
+	    width: 60%;
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
+}
+.photo2{
+	width: 40%;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+}
+
+
+ .photo-box2{ width: 90%;
+    margin: auto;
+    overflow: hidden;}
+  .photo3{
+    width:  33.3%;
+    padding:  20px;
+    float:  left;
+    overflow:  hidden;
+    box-sizing:  border-box;
+}
+.gellaryl img{}
+ .photo-box3{ 
+	width: 90%;
+    margin: auto;
+    overflow: hidden;}
+ .photo4{
+    width: 33.3%;
+    padding: 20px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+  .photo5{
+    width: 33.3%;
+    padding: 20px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+ .photo6{
+    width: 40%;
+    float:  left;
+    padding: 20px;
+    box-sizing:  border-box;
+    overflow:  hidden;
+}
+ .photo7{
+    width: 60%;
+    float:  left;
+    padding: 20px;
+    box-sizing:  border-box;
+    overflow:  hidden;
+}
+
+
+.blog-box{
+    width: 90%;
+    overflow:  hidden;
+    margin:  auto;
+    background:  ghostwhite;
+}
+.blog-box article{
+    font-size: 30px;
+    text-align:  center;
+    padding-bottom: 50px;
+}
+.blog-box article span{
+    font-size: 25px;
+}
+.blog-box article h2{}
+.blog-box .blog{
+    width: 25%;
+    float:  left;
+    padding: 15px;
+}
+
+.blog-box .blog img{
+    max-width:  100%;
+}
+.blog-box .blog h3{
+    font-size:  25px;
+}
+.blog-box .blog h5{
+    color: white;
+    background: black;
+    font-size: 20px;
+    text-align:  center;
+}
+.blog-box .blog p{}
+
+footer{
+    background: #ffb100;
+    width:  100%;
+    overflow:  hidden;
+    padding:  0 30px;
+}
+.container-box{
+    
+    margin:  0 auto;
+}
+.about-us{}
+.container-box .about-us{
+    width: 33.3%;
+    float:  left;
+    /* display:  inline-block; */
+    padding: 40px 0;
+    box-sizing: border-box;
+    text-align:  center;
+}
+.about-us p{}
+.newsletter{
+    width: 33.3%;
+    float:  left;
+    padding: 40px;
+    overflow:  hidden;
+    text-align:  center;
+}
+.container-box .newsletter h3{}
+.newsletter p{}
+
+.newsletter form{}
+
+.newsletter  input{
+    width: 70%;
+    padding: 6px;
+}
+
+.newsletter i{
+    position:  absolute;
+    background: red;
+    padding: 7px 7px;
+}
+ .container-box .social-menu{
+    width: 33.3%;
+    float:  left;
+    padding: 40px 0;
+    margin: 0px auto;
+    overflow:  hidden;
+    text-align:  center;
+}
+.social-menu ul{
+    padding: 0px;
+    margin: 0px;
+    /* margin-left:  0px; */
+}
+.social-menu ul li{
+    /* text-decoration: none; */
+    padding: 15px;
+    display:  inline-block;
+    font-size: 20px;
+}
+.social-menu ul li span {
+    text-decoration:  none;
+    display:  inline-block;
+}
+
+.social-menu ul li span a{
+    text-decoration:  none;
+    font-size:  20px;
+}
+
+.social-menu ul li img {}
+
+.social-menu ul li img a {}
+
+.social-menu ul li a:hover {}

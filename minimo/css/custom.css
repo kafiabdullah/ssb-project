@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-size:  16px;
+	color: gray;
+	
+	width: 100%;
+	height: 100%
+	/* overflow:  hidden; */
+}	
+*{
+	 box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	/* display: block; */
+	padding: 20px 0px;
+}
+header{
+    width:  100%;
+    margin:  auto;
+    /* padding: 0 0; */
+}
+.container{
+    width: 90%;
+    /* background: #d4d2d2; */
+    /* animation:  0 auto; */
+    margin:  0 auto;
+    overflow:  hidden;
+}
+.logo{
+    width: 20%;
+    float:  left;
+}
+.logo img{
+    padding: 30px 0;
+}
+
+nav{
+    width:  80%;
+    float:  right;
+    padding: 30px 0;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    text-align:  right;
+    width:  100%;
+}
+
+nav ul li {
+    list-style-type:  none;
+    /* float: left; */
+    /* margin-left: 60px; */
+    display: inline-block;
+    padding: 0 0 0 40px;
+}
+nav ul li a{
+    text-decoration:  none;
+    color:  gray;
+    font-size: 20px;
+    /* margin-left: 302px; */
+}
+nav ul li a:hover{}
+
+.banner-section{}
+.banner-section img{
+    width: 100%;
+    padding: 50px;
+    margin:  auto;
+}
+
+
+.article-section{
+    margin: 30px 0;
+}
+.container-box{
+    width: 80%;
+    margin: 20px auto;
+}
+
+article{}
+article span{
+    color: #7d7878;
+    /* text-decoration: none; */
+}
+article h1{font-size: 30px;}
+article p{}
+article a{
+    text-decoration: none;
+}
+article a span{
+    text-decoration:  none;
+}
+
+.gallery-box{
+    overflow:  hidden;
+}
+.gallery{
+    width:  50%;
+    float:  left;
+    padding: 30px;
+    
+}
+.gallery span{
+	display: block;
+}
+.gallery h1{
+    font-size:  30px;
+}
+.gallery p{}
+
+.sign-up{
+	width: 100%;
+	/* height: 200px; */
+	text-align: center;
+	padding: 11px;
+	overflow: hidden;
+	/* background: #504141fa; */
+	background: #c3b7b7;
+}
+.sign-up h1{
+	font-size: 35px;
+	color: #2a3333;
+	padding: 20px;
+}
+.sign-up input{
+	border: none;
+	/* width: 15%; */
+	/* height: 50px; */
+	border-bottom: 0px solid black;
+	background: #c3b6b3d6;
+	outline: none;
+	/* padding:   0; */
+}
+.sign-up button{
+	border: none;
+	background: transparent;
+	outline: none;
+}
+.sign-up hr {
+    width: 25%;
+    text-align: left;
+    margin: auto;
+    color: black;
+}
+ .gallery-2{}
+ 
+ .button{
+ 	width:100%;
+	background: white;
+	font-size: 40px;
+	color:#bbbbbb;
+ }
+ .button-load{
+   text-align: center;
+	margin:0 auto;
+	padding-bottom: 50px;
+}
+button{
+	padding:20px 50px;
+	font-size: 20px;
+	color:#565555;
+}
+ 
+ footer{
+    background: #c3b7b7;
+    margin: 0 auto;
+    padding: 50px 0;
+    width:  100%;
+}
+ .footer-menu{
+    float:  left;
+    width:  50%;
+}
+ .footer-menu ul{
+    margin:  0;
+    padding:  0;
+}
+.footer-menu ul li{
+    list-style:  none;
+    text-decoration:  none;
+    float:  left;
+}
+.footer-menu ul li a{
+    text-decoration:  none;
+    color: #2a3333;
+    margin: 20px;
+    text-transform:  capitalize;
+    font-size:  18px;
+}
+.footer-menu ul li a:hover{}
+
+.social-menu{
+    /* float:  right; */
+    width:  50%;
+    display:  inline-block;
+}
+.social-menu ul {
+    margin:  0;
+    padding:  0;
+    text-align:  right;
+}
+.social-menu ul li{
+    display:  inline-block;
+}
+
+.social-menu ul li span{
+    font-size: 15px;
+    color: #080808;
+}
+.social-menu ul li a{
+    color: #0b1d16;
+    margin-left: 20px;
+}
+.social-menu a:hover{}

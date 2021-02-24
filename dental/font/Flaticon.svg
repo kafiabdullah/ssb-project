@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2018-7-4: Created with FontForge (http://fontforge.org)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20160405 at Wed Jul  4 19:34:15 2018
+ By Apache
+Copyright (c) 2018, Apache
+</metadata>
+<defs>
+<font id="Flaticon" horiz-adv-x="200" >
+  <font-face 
+    font-family="Flaticon"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 5 3 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="0 -64 512 448"
+    underline-thickness="25.6"
+    underline-position="-51.2"
+    unicode-range="U+0020-F100"
+  />
+    <missing-glyph />
+    <glyph glyph-name="space" unicode=" " 
+ />
+    <glyph glyph-name="uniF100" unicode="&#xf100;" horiz-adv-x="512" 
+d="M452 408c33.084 0 60 -26.916 60 -60v-352c0 -33.084 -26.916 -60 -60 -60h-392c-33.084 0 -60 26.916 -60 60v352c0 33.084 26.916 60 60 60h24v40h40v-40h264v40h40v-40h24zM472 -4v264h-432v-264c0 -11.0283 8.97168 -20 20 -20h392c11.0283 0 20 8.97168 20 20z
+M472 300v48c0 11.0283 -8.97168 20 -20 20h-24v-40h-40v40h-264v-40h-40v40h-24c-11.0283 0 -20 -8.97168 -20 -20v-48h432zM76 178v40h40v-40h-40zM156 178v40h40v-40h-40zM236 178v40h40v-40h-40zM316 178v40h40v-40h-40zM396 178v40h40v-40h-40zM76 98v40h40v-40h-40z
+M156 98v40h40v-40h-40zM236 98v40h40v-40h-40zM316 98v40h40v-40h-40zM76 18v40h40v-40h-40zM156 18v40h40v-40h-40zM236 18v40h40v-40h-40zM316 18v40h40v-40h-40zM396 98v40h40v-40h-40z" />
+  </font>
+</defs></svg>

@@ -1,0 +1,80 @@
+/*
+flex
+flex-direction
+flex-wrap
+justify-content
+align-items
+align-content
+
+order
+flex-grow
+flex-basis
+flex-self
+*/
+ */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+
+header{}
+.container{
+    width:  1200px;
+    margin: 0 auto;
+    overflow:  hidden;
+}
+.flex{}
+.logo{
+    width: 20%;
+    float:  left;
+}
+.logo-img{}
+.logo-img img{}
+
+.address{
+    width: 80%;
+    float:  left;
+}
+.address-box{
+    width: 33.3%;
+    float:  left;
+    padding: 0px 0px;
+}
+.address-box ul{}
+.address-box ul li{
+    list-style:  none;
+    /* float:  left; */
+    /* width: 50%; */
+    display:  inline-block;
+}
+.address-box ul li img{}
+.address-box ul li strong{
+    font-size:  22px;
+    color: #363636;
+    display:  block;
+}
+.address-box ul li span{
+    font-size:  16px;
+}
+.address-icon{}
+.address-text{
+    margin-right: 10px;
+}
+.doctors{}
+.doctors-box{}
+.doctors-box img{}
+.doctors-overly{}
+.doctors-overly a{}
+.doctors-box h1{}
